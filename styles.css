@@ -1,7 +1,6 @@
 body {
-
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+  margin: 0;
 
 }
 
@@ -14,9 +13,27 @@ body {
     left:0;
 
 }
-li{
-    list-style:none;
 
+#navbar ul {
+  margin: 0;
+}
+
+.nav-menu li{
+    list-style:none;
+      float: left;
+}
+
+.nav-menu li a {
+  display: block;
+  padding: 20px;
+  font-size: x-large;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-menu li a:hover {
+    background-color:#06113C;
+    color:white;
 }
 #welcome-section {
     background: aliceblue;
@@ -46,12 +63,14 @@ li{
     display: flow-root;
     width: fit-content;
     margin: auto;
+    background:  #06113C ;
 
 }
 
 div.project-title{
   margin: 30px;
-border: 1px solid #777;
+border: 3px solid #FF8C32;
+background: #FF8C32 ;
 
   float: left;
   width: 500px;
@@ -62,13 +81,13 @@ border: 1px solid #777;
 
 div.project-title:hover {
     font-weight: bold;
-    border: 3px solid #FF8C32;
+    border: 3px solid  #06113C;
   }
 
 .project-title a {
   text-decoration: none;
   font-size: 20px;
-  color: #000;
+  color : #EEEEEE ;
   margin: 15px;
   display: block;
 
@@ -77,23 +96,30 @@ div.project-title:hover {
 }
 
 button {
-  padding: 10px ;
-  font-size: 20px ;
-  position: absolute;
-  margin: auto;
+  padding: 30px ;
+  font-size: 30px ;
+  margin: 20px auto;
   background: #06113C ;
   color: #EEEEEE ;
   border: none ;
-
 }
-
 
 button:hover {
-  font-size: 25px ;
   background: #FF8C32 ;
   color: #06113C ;
-
 }
+
+
+#buttonID{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  top: 0;
+  left: 0;
+}
+
+
 
 
   div.project-title img {
@@ -102,9 +128,48 @@ button:hover {
   }
 .socials{
   text-align: center;
+  background: #DDDDDD;
+  padding: 50px;
 }
   .center {
     width: fit-content;
     margin: auto;
+
+  }
+
+.footer {
+  direction: rtl;
+  display: flex;
+   
+}
+
+.footer p {
+      margin: 20px;
+  }
+
+  @media only screen and (max-width: 915px) {
+
+    #navbar {
+      height: 300px ;
+    }
+
+    #welcome-section {
+      top : 250 ;
+      height:50vh;
+    }
+
+
+
+    div.project-title{
+      margin: 30px;
+    border: 3px solid #FF8C32;
+    background: #FF8C32 ;
+
+      float: left;
+      width: 250px;
+      height: 250px;
+      text-align: center;
+      padding-bottom: 50px;
+    }
 
   }
