@@ -1,0 +1,110 @@
+body {
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#navbar{
+    position: fixed;
+    background-color: #FF8C32;
+    width: -webkit-fill-available;
+    top:0;
+    left:0;
+
+}
+li{
+    list-style:none;
+
+}
+#welcome-section {
+    background: aliceblue;
+    position: relative;
+    height: -webkit-fill-available;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+    background: #DDDDDD ;
+    color : #FF8C32 ;
+
+}
+.heading{
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.projects-class{
+    display: flow-root;
+    width: fit-content;
+    margin: auto;
+
+}
+
+div.project-title{
+  margin: 30px;
+border: 1px solid #777;
+
+  float: left;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+div.project-title:hover {
+    font-weight: bold;
+    border: 3px solid #FF8C32;
+  }
+
+.project-title a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  margin: 15px;
+  display: block;
+
+
+
+}
+
+button {
+  padding: 10px ;
+  font-size: 20px ;
+  position: absolute;
+  margin: auto;
+  background: #06113C ;
+  color: #EEEEEE ;
+  border: none ;
+
+}
+
+
+button:hover {
+  font-size: 25px ;
+  background: #FF8C32 ;
+  color: #06113C ;
+
+}
+
+
+  div.project-title img {
+    width: 100%;
+    height:100%;
+  }
+.socials{
+  text-align: center;
+}
+  .center {
+    width: fit-content;
+    margin: auto;
+
+  }
