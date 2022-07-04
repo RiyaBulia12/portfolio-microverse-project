@@ -7,8 +7,6 @@
 - Languages Used: HTML, CSS
 - Tools Used: Github Desktop
 - VCS: Git
-- Package Manager: Node, NPM
-- Template Used: Figma Template
 
 ## Project Setup
 To get a local copy up and running follow these simple example steps.
@@ -16,7 +14,6 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - You need to have Code Editor Installed
-- Make sure Nodejs and NPM is installed in your system for linters
 
 ### Setup
 1. Clone the repo in your local machine:
@@ -30,30 +27,6 @@ cd Portfolio
 3. Open the index.html in your brower:
 ```bash
 open index.html
-```
-
-### Install
-> To check linters run the following command:
-1. Install WebHint:
-```bash
-npm install --save-dev hint@7.x
-```
-2. Install StyleLint
-```bash
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x 
-```
-## Check Linters Error
-1. To check CSS or SCSS linters error:
-```bash
-npx stylelint "**/*.{css,scss}"
-```
-2. To fix CSS or SCSS linters error:
-```bash
-npx stylelint "**/*.{css,scss}" --fix
-```
-3. To check HTML linters error
-```bash
-npx hint .
 ```
 
 ## Authors
@@ -74,7 +47,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Microverse Videos](https://www.youtube.com/watch?v=PrIY8sYwe90&ab_channel=Microversevideos)
-- [Setup Linters](https://questions.microverse.org/t/configure-linters-for-html-and-css/2009)
-- [Mobile First](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/)
-- [Figma Templates](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
+- ["How to give a code review?"](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/code-review/articles/give_code_review_basics.md).
+- Check if you have used [semantic HTML tags](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md#:~:text=Use%20the%20appropriate%20tags%20for%20each%20element%20(e.g.%2C%20links%2C%20titles%2C%20etc.)%20and%20use%20HTML5%20semantic%20tags%20(e.g.%2C%20header%2C%20nav)%20over%20divs.).
+- Check if you applied [HTML & CSS best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md).
